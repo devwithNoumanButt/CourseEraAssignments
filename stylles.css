@@ -1,0 +1,141 @@
+.row{
+	width: 100%
+}
+#boudy{
+	background-color: lightgrey;
+
+}
+.first >h1{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.Third> .Second {
+	display: block;
+	border: 2px solid black;
+	width:30% ;
+	height:auto;
+	background-color: grey;
+	
+	float: left;
+	margin-left: 10%: 
+
+
+}
+.Second .Four .Five>p{
+	background-color: grey;
+}
+.Third> .Four{
+	display: block;
+	border: 2px solid black;
+	width:30% ;
+	background-color: grey;
+	height: auto;
+	float:left;
+	margin-left:3%;
+}
+#col{
+	
+	border:2px solid;
+	background-color: darkgrey;
+	width: 30%;
+	float: right;
+	margin-bottom: auto;
+	margin-top: 0;
+	padding-top: 0;
+}
+#col1{
+	border:2px solid;
+	background-color: lightgreen;
+	width: 30%;
+	float: right;
+	margin-bottom: auto;
+	margin-top: 0;
+	padding-top: 0;
+}
+#col2{
+	border:2px solid;
+	background-color: lightblue;
+	width: 30%;
+	float: right;
+	margin-bottom: auto;
+	margin-top: 0;
+	padding-top: 0;
+}
+.Third>.Five{
+	display: block;
+	border: 2px solid black;
+	width:30% ;
+	background-color: grey;
+	height: auto;
+	float: right;
+	margin-right: 3%;
+}
+@media(max-width: 767px){
+
+  .Third> .Second {
+	width:90% ;
+	float: none;
+	margin:auto; 	margin-bottom: 10px;
+}
+
+.Third> .Four{
+	width:90% ;
+	float:none;
+	margin:auto;
+		margin-bottom: 10px;
+
+}
+
+.Third>.Five{
+
+	width:90% ;
+	
+	float: none;
+	margin:auto;
+	margin-bottom: 10px;
+}
+}
+
+
+
+
+
+@media (min-width: 992px){
+
+	
+
+
+
+}
+@media(min-width: 768px)and (max-width: 991px){
+	  .Third> .Second {
+	width:45% ;
+	float: left;
+	margin:auto; 	
+	margin-bottom: 20px;
+	margin-left: 35px;
+}
+
+.Third> .Four{
+	width:45% ;
+	float:right;
+	margin:auto;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	
+
+}
+
+.Third>.Five{
+
+	width:92% ;
+	
+	float: left;
+	float:bottom;
+	margin:auto;
+	margin-top: 10px;
+	margin-left: 33px;
+}
+}
+
